@@ -1,0 +1,8 @@
+{
+  "name": "NovaStar Product & Compatibility Explorer",
+  "description": "Professional LED display controller analyzer, optical acuity visualizer, cabinet architecture estimator, and compatibility engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

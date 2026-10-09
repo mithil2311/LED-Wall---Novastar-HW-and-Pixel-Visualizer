@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  color-scheme: dark;
+  overflow-x: hidden;
+  max-width: 100vw;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ensure all native select dropdowns have high contrast dark backgrounds with bright white text */
+select {
+  color-scheme: dark !important;
+  background-color: #0f172a !important; /* bg-slate-900 */
+  color: #f8fafc !important; /* text-slate-50 */
+}
+
+select option {
+  background-color: #0f172a !important; /* solid slate-900 */
+  color: #f8fafc !important; /* crisp white text */
+  padding: 8px 12px;
+}
+
+select option:checked,
+select option:hover,
+select option:focus {
+  background-color: #1d4ed8 !important; /* blue-700 */
+  color: #ffffff !important;
+}
+
+select optgroup {
+  background-color: #020617 !important; /* slate-950 */
+  color: #93c5fd !important; /* blue-300 contrast */
+  font-weight: 700 !important;
+  font-style: normal !important;
+  padding: 6px 8px;
+}
